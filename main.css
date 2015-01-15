@@ -1,0 +1,110 @@
+/* ADD YOUR STYLES HERE */
+.signup {
+	display: block;
+	padding: 10px;
+	margin: 10px;
+	width: 500px;
+	text-align: right;
+}
+
+.signup label {
+	margin: 20px;
+}
+
+.signup input, .validation input {
+	border: none;
+	border: solid 1px #bcbcbe;
+	border-radius: 3px;
+	padding: 5px;
+	width: 300px;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+.signup input.state {
+	width: 10%;
+}
+
+.signup input.city {
+	width: 30%;
+}
+
+.newsletter input {
+	width: 40px;
+	margin: 20px 0 0 0;
+}
+
+.submit input {
+	width: 65%;
+}
+
+.validation {
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	width: 500px;
+	text-align: right;
+}
+
+.validation label {
+	margin-right: 20px;
+}
+.validation input.valid {
+	outline: none;
+	border-color: green;
+	box-shadow: 0 0 10px green;
+}
+
+.is-valid, .is-invalid {
+	float: right;
+	position: absolute;
+	margin: 18px 0px 20px 22px;
+}
+
+.is-valid {
+	color: green;
+}
+
+.validation input.invalid {
+	outline: none;
+	border-color: red;
+	box-shadow: 0 0 10px red;	
+}
+
+.is-invalid {
+	color: red;
+}
+
+.validation .inputVal {
+	margin: 10px 10px 10px 10px;
+}
+
+.searchBar {
+	width:95%;
+	max-width: 900px;
+	background: #DDDDDD;
+	padding: 10px;
+	border-radius: 10px;
+}
+.searchBar div, .searchBar input {
+	display: inline-block;
+	padding: 5px;
+}
+.searchBar label {
+	text-align: left;
+}
+
+.searchInput input {
+	width: 70%;
+}
+
+.rightButton {
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	background: #ED828A;
+	color: white;
+}
+
+
+
